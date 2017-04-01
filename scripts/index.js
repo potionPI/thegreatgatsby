@@ -1,11 +1,15 @@
 var slideIndex = 1;
-showImgs(slideIndex);
+showDivs(slideIndex);
 
-function plusImgs(n) {
-	showImgs(slideIndex += n);
+function plusDivs(n) {
+	showDivs(slideIndex += n);
 }
 
-function showImgs(n) {
+function currentDiv(n) {
+	showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
 	var i;
 	var x = document.getElementsByClassName("moonphase");
 	if (n > x.length) {slideIndex = 1}
