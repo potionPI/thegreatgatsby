@@ -2,7 +2,7 @@ var slideIndex = 1;
 showImgs(slideIndex);
 
 function plusImgs(n) {
-	plusImgs(slideIndex += n);
+	showImgs(slideIndex += n);
 }
 
 function showImgs(n) {
