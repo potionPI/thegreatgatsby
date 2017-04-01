@@ -9,7 +9,7 @@
         <link rel="stylesheet" type="text/css" href="https://rawgit.com/potionPI/thegreatgatsby/master/stylesheets/index.css" />
         <!--https://cdn.rawgit.com/potionPI/thegreatgatsby/fcd21283/stylesheets/index.css-->
 
-  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
     </head>
     <body>
@@ -17,30 +17,47 @@
     	<div class="moons-slideshow">
     		<div class="moonphase">
                 <img src="https://raw.githubusercontent.com/potionPI/thegreatgatsby/master/resources_mobile/moon1.png" alt="new moon" />
+                <div class="new-moon-come">
+                    <a href="https://potionpi.github.io/thegreatgatsby/page1newmoon.html">Come</a>
+                    <p>And when I gazed deep into my own heart, I realized there was someone calling for me</p>
+                </div>
             </div>
     		<div class="moonphase">
                 <img src="https://raw.githubusercontent.com/potionPI/thegreatgatsby/master/resources_mobile/moon2.png" alt="waxing crescent" />
-    		</div>
+                <p>And what did that beauty look like?</p>
+            </div>
             <div class="moonphase">
                 <img src="https://raw.githubusercontent.com/potionPI/thegreatgatsby/master/resources_mobile/moon3.png" alt="first quarter" />
+                <p>A fantasy</p>
             </div>
             <div class="moonphase">
                 <img src="https://raw.githubusercontent.com/potionPI/thegreatgatsby/master/resources_mobile/moon4.png" alt="waxing gibbous" />
+                <p>But how she whispered, and how she was real.</p>
     		</div>
             <div class="moonphase">
                 <img src="https://raw.githubusercontent.com/potionPI/thegreatgatsby/master/resources_mobile/moon5.png" alt="full moon" />
+                <p>And she was the sun. So I knew--</p>
             </div>
             <div class="moonphase">
                 <img src="https://raw.githubusercontent.com/potionPI/thegreatgatsby/master/resources_mobile/moon6.png" alt="waning gibbous" />
+                <p>She would be with me forever.</p>
+                <p>Because that beautiful self would--</p>
             </div>
     		<div class="moonphase">
                 <img src="https://raw.githubusercontent.com/potionPI/thegreatgatsby/master/resources_mobile/moon7.png" alt="last quarter" />
+                <p>Yes closer, and closer still...</p>
     		</div>
             <div class="moonphase">
                 <img src="https://raw.githubusercontent.com/potionPI/thegreatgatsby/master/resources_mobile/moon8.png" alt="waning crescent" />
+                <p>Before I knew it, where had the sun gone?</p>
+                <p>...but I can get it back</p>
+                <div>
+                    <p>&#10094Turn Back&#10095</p>
+                    <button onclick="currentDiv(1)">Go</button>
+                </div>
     		</div>
-            <button class="moonphase-button-left" onclick="plusImgs(-1)">&#10094;</button>
-    		<button class="moonphase-button-right" onclick="plusImgs(+1)">&#10095;</button>
+            <button class="moonphase-button-left" onclick="plusDivs(-1)">&#10094;</button>
+    		<button class="moonphase-button-right" onclick="plusDivs(+1)">&#10095;</button>
 
 
         </div>
