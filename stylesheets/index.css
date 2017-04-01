@@ -1,9 +1,101 @@
 body {
 	background-color:#272727;
+	color:white;
+	font-family:arial;
+	font-size:30px;
+	margin:50px;
 }
 
-.moonphase img{
-	margin:0 auto;
+button:hover {
+	cursor:pointer;
+}
+
+button:focus {
+	outline:none;
+}
+
+.moonphase div {
+	position:relative;
+	width:323px;
+	height:322px;
+}
+
+.moonphase div div{
+	position:absolute;
+	text-align:center;
+	width:323px;
+	top:136px;
+}
+
+.moonphase div div a {
+	color:white;
+	font-size:50px;
+}
+
+.moonphase div div a:hover {
+	color:#8FBD6B;
+}
+
+.moonphase div p {
 	display:block;
-	max-width:100%;
+	position:absolute;
+	text-align:center;
+	width:323px;
+	top:101px;
+}
+
+.moonphase div button {
+	background-color:#FFECAA;
+	color:#313131;
+	border:none;
+	font-size:30px;
+	display:block;
+	position:absolute;
+	text-align:center;
+	top:190px;
+	left:133px;
+}
+
+.moonphase div button:hover {
+	background-color:#313131;
+	color:#FFECAA;
+}
+
+.moonphase p {
+	font-family:verdana;
+}
+
+.bottom-buttons {
+	display:block;
+	position:relative;
+	z-index:10;
+	top:150px;
+	left:-55px;
+/*	width:323px;
+	height:322px;*/
+}
+
+.button-left {
+	display:block;
+	position:absolute;
+}
+
+.button-right {
+	display:block;
+	position:absolute;
+	left:403px;
+}
+
+.slide-button {
+	border:none;
+	background:rgba(89, 89, 88, 0.2);
+	width:40px;
+	height:80px;
+	color:rgba(255, 255, 255, 1);
+	font-size:20px;
+}
+
+.slide-button:hover {
+	background:rgba(143, 189, 107, 0.23);
+	color:white;
 }
