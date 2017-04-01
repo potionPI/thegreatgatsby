@@ -6,108 +6,95 @@
         <title>Many moons</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" type="text/css" href="https://rawgit.com/potionPI/thegreatgatsby/master/stylesheets/index.css" />
+        <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/potionPI/thegreatgatsby/fcd21283/stylesheets/index.css" />
         <!--"https://rawgit.com/potionPI/thegreatgatsby/master/stylesheets/index.css"-->
         <!--https://cdn.rawgit.com/potionPI/thegreatgatsby/fcd21283/stylesheets/index.css-->
+        
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
     </head>
     <body>
-
-    	<div class="moons-slideshow">
-
-    		<div class="moonphase">
-                <img src="https://raw.githubusercontent.com/potionPI/thegreatgatsby/master/resources_mobile/moon1.png" alt="new moon"/>
-                <div class="new-moon-come">
-                    <a href="https://potionpi.github.io/thegreatgatsby/page1newmoon.html">Come</a>
-                    <p>And when I gazed deep into my own heart, I realized there was someone calling for me</p>
+            <div class="bottom-buttons">
+                <div class="button-left">
+                    <button class="slide-button" onclick="plusDivs(-1)">&#10094;</button>
                 </div>
-            </div>
-
-    		<div class="moonphase">
-                <img src="https://raw.githubusercontent.com/potionPI/thegreatgatsby/master/resources_mobile/moon2.png" alt="waxing crescent" />
-                <div>
-                    <p>&#10094Turn Back&#10095</p>
-                    <button onclick="currentDiv(1)">Go</button>
-                </div>
-                <div>
-                    <p>And what did that beauty look like?</p>
-                </div>
-            </div>
-
-            <div class="moonphase">
-                <img src="https://raw.githubusercontent.com/potionPI/thegreatgatsby/master/resources_mobile/moon3.png" alt="first quarter" />
-                <div>
-                    <p>&#10094Turn Back&#10095</p>
-                    <button onclick="currentDiv(1)">Go</button>
-                </div>
-                <div>
-                    <p>A fantasy</p>
+                <div class="button-right">
+                    <button class="slide-button" onclick="plusDivs(+1)">&#10095;</button>
                 </div>
             </div>
             
-            <div class="moonphase">
-                <img src="https://raw.githubusercontent.com/potionPI/thegreatgatsby/master/resources_mobile/moon4.png" alt="waxing gibbous" />
+    		<div class="moonphase">
                 <div>
-                    <p>&#10094Turn Back&#10095</p>
-                    <button onclick="currentDiv(1)">Go</button>
+                    <img src="https://raw.githubusercontent.com/potionPI/thegreatgatsby/master/resources_mobile/moon1.png" alt="new moon"/>
+                    <div><a href="https://potionpi.github.io/thegreatgatsby/page1newmoon.html">Come</a></div>
                 </div>
-                <div>
-                    <p>But how she whispered, and how she was real.</p>
-                </div>
-            </div>
-
-            <div class="moonphase">
-                <img src="https://raw.githubusercontent.com/potionPI/thegreatgatsby/master/resources_mobile/moon5.png" alt="full moon" />
-                <div>
-                    <p>&#10094Turn Back&#10095</p>
-                    <button onclick="currentDiv(1)">Go</button>
-                </div>
-                <div>
-                    <p>And she was the sun. So I knew--</p>
-                </div>
-            </div>
-
-            <div class="moonphase">
-                <img src="https://raw.githubusercontent.com/potionPI/thegreatgatsby/master/resources_mobile/moon6.png" alt="waning gibbous" />
-                <div>
-                    <p>&#10094Turn Back&#10095</p>
-                    <button onclick="currentDiv(1)">Go</button>
-                </div>
-                <div>
-                    <p>She would be with me forever.</p>
-                    <p>Because that beautiful self would--</p>
-                </div>
+                <p>And when I gazed deep into my own heart, I realized there was someone calling for me.</p>
             </div>
 
     		<div class="moonphase">
-                <img src="https://raw.githubusercontent.com/potionPI/thegreatgatsby/master/resources_mobile/moon7.png" alt="last quarter" />
                 <div>
+                    <img src="https://raw.githubusercontent.com/potionPI/thegreatgatsby/master/resources_mobile/moon2.png" alt="waxing crescent" />
+                    <p>&#10094Turn Back&#10095</p>
+                    <button onclick="currentDiv(1)" class="num2buttonactual">Go</button>
+                </div>
+                <p>And what did that beauty look like?</p>
+            </div>
+
+            <div class="moonphase">
+                <div>
+                    <img src="https://raw.githubusercontent.com/potionPI/thegreatgatsby/master/resources_mobile/moon3.png" alt="first quarter" />
                     <p>&#10094Turn Back&#10095</p>
                     <button onclick="currentDiv(1)">Go</button>
                 </div>
+                <p>A fantasy</p>
+            </div>
+            
+            <div class="moonphase">
                 <div>
-                    <p>Yes closer, and closer still...</p>
+                    <img src="https://raw.githubusercontent.com/potionPI/thegreatgatsby/master/resources_mobile/moon4.png" alt="waxing gibbous" />
+                    <p>&#10094Turn Back&#10095</p>
+                    <button onclick="currentDiv(1)">Go</button>
                 </div>
+                <p>But how she whispered, and how she was real.</p>
+            </div>
+
+            <div class="moonphase">
+                <div>
+                    <img src="https://raw.githubusercontent.com/potionPI/thegreatgatsby/master/resources_mobile/moon5.png" alt="full moon" />
+                    <p>&#10094Turn Back&#10095</p>
+                    <button onclick="currentDiv(1)">Go</button>
+                </div>
+                <p>And she was the sun. So I knew--</p>
+            </div>
+
+            <div class="moonphase">
+                <div>
+                    <img src="https://raw.githubusercontent.com/potionPI/thegreatgatsby/master/resources_mobile/moon6.png" alt="waning gibbous" />
+                    <p>&#10094Turn Back&#10095</p>
+                    <button onclick="currentDiv(1)">Go</button>
+                </div>
+                <p>She would be with me forever.</p>
+                <p>Because that beautiful self would--</p>
+            </div>
+
+    		<div class="moonphase">
+                <div>
+                    <img src="https://raw.githubusercontent.com/potionPI/thegreatgatsby/master/resources_mobile/moon7.png" alt="last quarter" />
+                    <p>&#10094Turn Back&#10095</p>
+                    <button onclick="currentDiv(1)">Go</button>
+                </div>
+                <p>Yes closer, and closer still...</p>
     		</div>
 
             <div class="moonphase">
-                <img src="https://raw.githubusercontent.com/potionPI/thegreatgatsby/master/resources_mobile/moon8.png" alt="waning crescent" />
                 <div>
+                    <img src="https://raw.githubusercontent.com/potionPI/thegreatgatsby/master/resources_mobile/moon8.png" alt="waning crescent" />
                     <p>&#10094Turn Back&#10095</p>
                     <button onclick="currentDiv(1)">Go</button>
                 </div>
-                <div>
-                    <p>Before I knew it, where had the sun gone?</p>
-                    <p>...but I can get it back</p>
-                </div>
-    		</div>
-
-            <button class="moonphase-button-left" onclick="plusDivs(-1)">&#10094;</button>
-    		<button class="moonphase-button-right" onclick="plusDivs(+1)">&#10095;</button>
-
-
-        </div>
+                <p>Before I knew it, where had the sun gone?</p>
+                <p>...but I can get it back</p>
+    		</div>   
 
         <script src="https://rawgit.com/potionPI/thegreatgatsby/master/scripts/index.js"></script>
         <!--https://cdn.rawgit.com/potionPI/thegreatgatsby/936e5d0d/scripts/index.js-->
