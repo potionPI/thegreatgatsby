@@ -1,0 +1,44 @@
+body {
+	background-color:#272727;
+	color:#CDCDCD;
+	font-family:verdana;
+	font-size:25px;
+	line-height:30px;
+	margin:50px;
+	position:relative;
+}
+
+img {
+	position:absolute;
+	display:block;
+	margin:auto;
+	width:;
+	top:-245px;
+}
+
+p {
+	position:absolute;
+	display:block;
+	top:100px;
+	margin:auto;
+}
+
+a {
+	background-color:rgb(143, 189, 107);
+	color:rgba(240, 240, 240, .9);
+	padding:10px;
+	text-decoration:none;
+	display:block;
+	position:absolute;
+
+}
+
+a:hover {
+	color:#F6F6F6;
+	text-decoration:underline;
+}
+
+a:hover:after {
+	position:relative;
+	content:"...";
+}
