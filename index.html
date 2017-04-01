@@ -9,8 +9,12 @@
         <link rel="stylesheet" type="text/css" href="https://rawgit.com/potionPI/thegreatgatsby/master/stylesheets/index.css" />
         <!--https://cdn.rawgit.com/potionPI/thegreatgatsby/fcd21283/stylesheets/index.css-->
 
-  	<script type="text/javascript" src="https://rawgit.com/potionPI/thegreatgatsby/master/scripts/index.js"></script>
-  	<!--https://cdn.rawgit.com/potionPI/thegreatgatsby/936e5d0d/scripts/index.js-->
+  		<script type="text/javascript" src="https://rawgit.com/potionPI/thegreatgatsby/master/scripts/index.js"></script>
+  		<!--https://cdn.rawgit.com/potionPI/thegreatgatsby/936e5d0d/scripts/index.js-->
+  		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.js"></script>
 
     </head>
     <body>
@@ -30,6 +34,25 @@
 
 
     	</div>
+<!--     	<script>
+    	var slideIndex = 1;
+		showImgs(slideIndex);
+
+		function plusImgs(n) {
+			showImgs(slideIndex += n);
+		}
+
+		function showImgs(n) {
+			var i;
+			var x = document.getElementsByClassName("moonphase");
+			if (n > x.length) {slideIndex = 1}
+			if (n < 1) {slideIndex = x.length}
+			for (i = 0; i < x.length; i++) {
+				x[i].style.display = "none";
+			}
+			x[slideIndex-1].style.display = "block";
+		}
+	</script> -->
 
     </body>
 </html>
