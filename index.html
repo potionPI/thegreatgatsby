@@ -10,8 +10,6 @@
         <!--https://cdn.rawgit.com/potionPI/thegreatgatsby/fcd21283/stylesheets/index.css-->
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	<script type="text/javascript" src="https://rawgit.com/potionPI/thegreatgatsby/master/scripts/index.js"></script>
-	<!--https://cdn.rawgit.com/potionPI/thegreatgatsby/936e5d0d/scripts/index.js-->
 
     </head>
     <body>
@@ -28,28 +26,9 @@
     		<button class="moonphase-button-left" onclick="plusImgs(-1)">&#10094;</button>
     		<button class="moonphase-button-right" onclick="plusImgs(+1)">&#10095;</button>
 
-
-
     	</div>
-     	<script>
-    	var slideIndex = 1;
-		showImgs(slideIndex);
-
-		function plusImgs(n) {
-			showImgs(slideIndex += n);
-		}
-
-		function showImgs(n) {
-			var i;
-			var x = document.getElementsByClassName("moonphase");
-			if (n > x.length) {slideIndex = 1}
-			if (n < 1) {slideIndex = x.length}
-			for (i = 0; i < x.length; i++) {
-				x[i].style.display = "none";
-			}
-			x[slideIndex-1].style.display = "block";
-		}
-	</script>
-
+	<script type="text/javascript" src="https://rawgit.com/potionPI/thegreatgatsby/master/scripts/index.js"></script>
+	<!--https://cdn.rawgit.com/potionPI/thegreatgatsby/936e5d0d/scripts/index.js-->
+	    
     </body>
 </html>
