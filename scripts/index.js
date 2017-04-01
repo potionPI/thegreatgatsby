@@ -5,7 +5,7 @@ function plusImgs(n) {
 	plusImgs(slideIndex += n);
 }
 
-function showDivs(n) {
+function showImgs(n) {
 	var i;
 	var x = document.getElementsByClassName("moonphase");
 	if (n > x.length) {slideIndex = 1}
