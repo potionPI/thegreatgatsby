@@ -1,0 +1,46 @@
+body {
+	background:url('https://raw.githubusercontent.com/potionPI/thegreatgatsby/master/resources_mobile/pagehiddenmorestarsbetter.png') repeat 0 0 #272727;
+	color:rgba(255, 255, 255, 0.9);
+	font-family:verdana;
+	font-size:25px;
+	margin:100px;
+	position:relative;
+	overflow-x:hidden;
+}
+
+h1 {
+	color:#8BA775;
+	font-size:25px;
+}
+
+h2 {
+	color:white;
+	font-size:23px;
+}
+
+.date {
+	color:#8BA775;
+	font-size:`19px;
+}
+
+a {
+	color:#DBF8C4;
+	background-color:#8FBD6B;
+	padding:5px;
+	text-decoration:none;
+	opacity:0.8;
+}
+
+a:hover {
+	opacity:1;
+	background-color:#8BA775;
+}
+
+.all-images {
+	position:absolute;
+	opacity:.3;
+}
+
+.all-images:hover {
+	cursor:pointer;
+}
