@@ -1,0 +1,71 @@
+body {
+	background-color:#272727;
+	color:white;
+	font-family:verdana;
+	font-size:25px;
+	line-height:35px;
+	margin-top:50px;
+	margin-left:50px;
+	margin-right:0;
+	position:relative;
+	overflow:hidden;
+}
+
+div {
+	position:relative;
+}
+
+img {
+	position:absolute;
+}
+
+p {
+	position:absolute;
+}
+
+a {
+	position:absolute;
+	z-index:4;
+	top:240px;
+	color:#272727;
+	text-decoration:none;
+}
+
+a:hover {
+	color:#8FBD6B;
+}
+
+.fakesun img {
+	top:100px;
+	left:-150px;
+}
+
+.fakesun-light {
+	z-index:2;
+}
+
+a:hover ~ .fakesun-light {
+	opacity:0;
+	-webkit-transition:opacity .1s ease-in; 
+   -moz-transition:opacity .1s ease-in; 
+   -o-transition:opacity .1s ease-in; 
+   transition:opacity .1s ease-in; 
+}
+
+
+
+.earth {
+	top:170px;
+	left:300px;
+}
+
+.moon {
+	top:220px;
+	left:270px;
+}
+
+.text {
+	dislay:block;
+	left:70px;
+	text-align:right;
+}
