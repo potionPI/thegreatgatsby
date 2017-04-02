@@ -1,0 +1,44 @@
+body {
+	background-color:#272727;
+	color:#272727;
+	font-family:verdana;
+	font-size:25px;
+	margin:50px;
+}
+
+div {
+	width:auto;
+	position:relative;
+}
+
+img {
+	position:absolute;
+	width:500px;
+	left:-100px;
+
+}
+
+.text {
+	position:absolute;
+	top:130px;
+	text-align:center;
+}
+
+a {
+	color:rgba(219, 248, 196, .7);
+	background-color:rgba(143, 189, 107, .6);
+	padding:5px;
+	text-decoration:none;
+}
+
+a:hover {
+	color:rgba(219, 248, 196, 1);
+	background-color:rgba(143, 189, 107, 1);
+}
+
+.link {
+	position:absolute;
+	top:260px;
+	width:300px;
+	text-align:center;
+}
