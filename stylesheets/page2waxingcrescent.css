@@ -1,0 +1,50 @@
+body {
+	font-family:verdana;
+	font-size:25px;
+	line-height:30px;
+	margin:0px;
+	height:100%;
+	color:#F1F1F1;
+	background:url("https://raw.githubusercontent.com/potionPI/thegreatgatsby/master/resources_mobile/page2waterplus.png") no-repeat center 40px #272727 fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size:cover;
+}
+
+div {
+	position:relative;
+	margin:50px;
+}
+
+img {
+	position:absolute;
+	display:block;
+	top:-200px;
+}
+
+.text {
+	position:absolute;
+	top:150px;
+	text-align:center;
+}
+
+.link {
+	position:absolute;
+	top:300px;
+	display:block;
+	left:200px;
+
+}
+
+a {
+	color:#DBF8C4;
+	background-color:#8FBD6B;
+	text-decoration:none;
+	padding:5px;
+}
+
+a:hover {
+	background-color:#CFF6B1;
+	color:#8FBD6B;
+}
