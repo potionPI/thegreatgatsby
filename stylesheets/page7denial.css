@@ -1,0 +1,32 @@
+body {
+	background-color:#272727;
+	color:white;
+	font-family:verdana;
+	font-size:25px;
+	line-height:35px;
+	margin:50px;
+	position:relative;
+}
+
+a {
+	color:rgba(219, 248, 196, .7);
+	background-color:rgba(143, 189, 107, .6);
+	padding:5px;
+	text-decoration:none;
+	top:20vh;
+}
+
+a:hover {
+	color:rgba(219, 248, 196, 1);
+	background-color:rgba(143, 189, 107, 1);
+}
+
+p {
+	position:absolute;
+	text-align:center;
+	top:13vh;
+}
+
+p:hover {
+	filter:blur(1.2px);
+}
