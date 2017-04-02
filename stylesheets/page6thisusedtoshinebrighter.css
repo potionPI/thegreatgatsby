@@ -1,0 +1,85 @@
+body {
+	background:url("https://raw.githubusercontent.com/potionPI/thegreatgatsby/master/resources_mobile/page6starsplus.png") repeat 0 0 #272727;
+	margin-top:50px;
+	margin-left:50px;
+	margin-right:0;
+	overflow:hidden;
+	color:rgba(255, 255, 255, .5);
+	font-family:verdana;
+	font-size:25px;
+	height:100vh;
+}
+
+div {
+	position:relative;
+	height:100px;
+}
+
+img {
+	position:absolute;
+}
+
+.big-moon {
+	width:180vh;
+	top:30vh;
+	left:-80vh;
+}
+
+.stick {
+	bottom:-25vh;
+	left:10vh;
+	opacity:1;
+	z-index:2;
+}
+
+.stick:hover {
+	opacity:0;
+}
+
+.sticknext {
+	bottom:-25vh;
+	left:10vh;
+	opacity:0;
+}
+
+.stick:hover ~ .sticknext {
+	opacity:1;
+}
+
+div.test {
+	height: 173px;
+	width:207px;
+}
+
+.test a {
+	display:block;
+	height: 173px;
+	width:207px;
+}
+
+p {
+	position:absolute;
+	display:inline-block
+}
+
+p.text {
+	text-align:center;
+}
+
+.link {
+	top:50vh;
+	left:17vh;
+
+}
+
+a.button {
+	color:rgba(219, 248, 196, .7);
+	background-color:rgba(143, 189, 107, .6);
+	padding:5px;
+	text-decoration:none;
+}
+
+a.button:hover {
+	color:rgba(219, 248, 196, 1);
+	background-color:rgba(143, 189, 107, 1);
+}
